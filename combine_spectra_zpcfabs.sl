@@ -79,4 +79,4 @@ model_flux(1,0.5,10);
 %plot_comps({{g}},popt,&plot_data);
 %close_plot(pid);
 
-
+%
