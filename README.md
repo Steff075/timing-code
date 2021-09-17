@@ -57,7 +57,7 @@ evselect table=EPIC.fits withimageset=yes imageset=EPIC_image.fits xcolumn=X yco
 
 ds9 EPIC_image.fits &
 
-`extract source and backrground regions and create spectra' using `sas_postproc_script.sl`
+`extract source and backrground regions and create spectra` using `sas_postproc_script.sl`
 
 ### Check for pileup
 
