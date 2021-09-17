@@ -57,7 +57,9 @@ evselect table=EPIC.fits withimageset=yes imageset=EPIC_image.fits xcolumn=X yco
 
 ds9 EPIC_image.fits &
 
-`extract source and backrground regions and create spectra` using `sas_postproc_script.sl`
+### Extract source and backrground regions and create spectra
+
+`sas_postproc_script.sl`
 
 ### Check for pileup
 
@@ -87,7 +89,7 @@ exit
 | `lagfreq_script.sl`        | create the time lags asa function of frequency between 2 different energy bands     |
 
 
-There are more codes that listed in the above table. This will need to be tidied up.
+
 
 
 
