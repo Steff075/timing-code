@@ -83,10 +83,10 @@ exit
 
 ## Software to perform initial data processing
 
-| Code                       | Description                                                              |
-|----------------------------|--------------------------------------------------------------------------|
-| `sas_postproc_script.sl`   | creates the lightcurves and spectra from the source and backrgound image 
-| `lagfreq_script.sl`        | create the time lags asa function of frequency between 2 different energy bands     |
+| Code                       | Description                                                                          |
+|----------------------------|--------------------------------------------------------------------------------------|
+| `sas_postproc_script.sl`   | creates the lightcurves and spectra from the source and backrgound image             |
+| `lagfreq_script.sl`        | create the time lags as a function of frequency between 2 different energy bands     |
 
 
 
