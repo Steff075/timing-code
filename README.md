@@ -29,7 +29,7 @@ cp 1112_0306870101_SCX00000SUM.SAS /data/scratch3/steff/Mrk335/0306870101/PROC
 
 cp ccf.cif /data/scratch3/steff/Mrk335/0306870101/PROC
 
-### Create 01 - 12 keV lightcurves
+### Create 10 - 12 keV lightcurves
 
 evselect table=EPIC.fits withrateset=yes rateset=EPICflares.fits maketimecolumn=yes timebinsize=100 makeratecolumn=yes expression='#XMMEA_EP && (PI>10000&&PI<12000) && (PATTERN==0)'
 
